@@ -1,4 +1,4 @@
-# Sine_Lookup_Generator
+# Sine Lookup Table Generator
 This Python 3 script generates a single cycle sine wave look up table. It's useful for digital synthesis of sine waves with a DAC.
 
 Invoke the script with a terminal:

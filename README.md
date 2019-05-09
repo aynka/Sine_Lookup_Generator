@@ -24,5 +24,5 @@ Parameter help:
 Not all DACs are capable of true Rail-to-Rail outputs.
 Use `--ceiling`, `--floor` to adjust the output to avoid clipping/distortion like shown bellow.
 ```
->python <dir_path>\sine_table.py --s=1024 --f=95 --c=4000
+>python <dir_path>\sine_lookup_generatore.py --s=1024 --f=95 --c=4000
 ```

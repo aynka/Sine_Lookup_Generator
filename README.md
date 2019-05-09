@@ -18,7 +18,8 @@ Parameter help:
 * --size : Table size, Integer.
 * --floor : Minimum value of the amplitude. Integer (optional, defaults to 0)
 * --ceiling : Maximum value of the amplitude. Integer (optional, defaults to 1023)
-
+## Output:
+![Example Output](ExampleOutput.png?raw=true)
 ### Note:
 Not all DACs are capable of true Rail-to-Rail outputs.
 Use `--ceiling`, `--floor` to adjust the output to avoid clipping/distortion like shown bellow.

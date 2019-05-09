@@ -1,17 +1,17 @@
 # Sine Lookup Table Generator
-This Python 3 script generates a single cycle sine wave look up table. It's useful for digital synthesis of sine waves with a DAC.
+This Python 3 script generates a single cycle sine wave look up table. It's useful for digital synthesis of sine waves with a DAC. Output is formated in hexadecimal with fixed 16 bit width and 16 data points per raw.
 
 Invoke the script with a terminal:
 ```
->python <dir_path>\sine_table.py --size=1024 --floor=0 --ceiling=4095
+>python <dir_path>\sine_lookup_generatore.py --size=1024 --floor=0 --ceiling=4095
 ```
 or
 ```
->python <dir_path>\sine_table.py --s=1024 --f=0 --c=4095
+>python <dir_path>\sine_lookup_generatore.py --s=1024 --f=0 --c=4095
 ```
 Parameter help:
 ```
->python <dir_path>\sine_table.py -h
+>python <dir_path>\sine_lookup_generatore.py -h
 ```
 
 ## Parameters:
@@ -24,5 +24,5 @@ Parameter help:
 Not all DACs are capable of true Rail-to-Rail outputs.
 Use `--ceiling`, `--floor` to adjust the output to avoid clipping/distortion like shown bellow.
 ```
->python <dir_path>\sine_table.py --s=1024 --f=96 --c=4000
+>python <dir_path>\sine_table.py --s=1024 --f=95 --c=4000
 ```
